@@ -1,0 +1,111 @@
+.new {
+    background-image: url('../../images/background.png');
+    padding-top: 20px;
+    padding-bottom: 164px;
+}
+
+.title {
+    font-size: 53px;
+}
+
+.new__buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 307px;
+}
+
+.button {
+    font-family: 'DaysOne-Regular';
+    font-size: 32px;
+    align-items: center;
+    color: var(--main-black);
+    background: linear-gradient(to right, var(--button-orange), var(--third-orange));
+    border-radius: 39px;
+    max-width: 230px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dress__card {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--peach-orange);
+    border-radius: 27px;
+    margin-bottom: 60px;
+}
+
+.product__link {
+    display: flex;
+    width: 53px;
+    height: 53px;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 77px;
+    background-color: var(--button-orange);
+    transform: scale(-1);
+    z-index: 100;
+    position: relative;
+}
+
+.slider {
+    max-width: 1182px;
+    margin-left: auto;
+    margin-top: -340px;
+}
+
+.slider__controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__button--prev {
+    margin: 0;
+    transform: scale(1);
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--button-orange);
+    width: 144px;
+    height: 5px;
+    border-radius: 0px;
+}
+
+@media (max-width: 1500px) {
+    .slider {
+        margin: 0 auto;
+    }
+    .new {
+        padding-bottom: 119px;
+    }
+    .new__buttons {
+        flex-direction: row;
+        gap: 20px;
+        max-width: 590px;   
+        flex-wrap: wrap;
+        margin: 80px auto 40px;
+        justify-content: center;
+    }
+    .title {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .slider {
+        margin: 0 auto;
+    }
+    .new__buttons {
+        flex-direction: row;
+        gap: 10px;
+        max-width: 590px;   
+        flex-wrap: wrap;
+        margin: 40px auto 40px;
+        justify-content: center;
+    }
+    .title {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,17 @@
+@import "../css/vendor/_reset.css";
+@import "../css/vendor/_vars.css";
+@import "../css/vendor/_global.css";
+
+@import "../css/components/_header.css";
+@import "../css/components/_intro.css";
+@import "../css/components/_new.css";
+@import "../css/components/_products.css";
+@import "../css/components/_footer.css";
+
+@import "../css/components/_shirt-images.css";
+@import "../css/components/_product__sizes.css";
+@import "../css/components/_product__info.css";
+@import "../css/components/_recomend__slider.css";
+
+@import "../css/components/_cart.css";
+@import "../css/components/_order.css";

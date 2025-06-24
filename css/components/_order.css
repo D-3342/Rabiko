@@ -1,0 +1,54 @@
+.order {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    background-color: var(--second-yellow);
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+.order__text {
+    max-width: 606px;
+    margin: 29px 24px;
+}
+
+.addres__text {
+    margin-bottom: 33px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+.discount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.final__sum {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 32px;
+    margin-top: 21px;
+    margin-bottom: 59px;
+}
+
+.order__button {
+    font-size: 40px;
+    font-family: 'DaysOne-Regular';
+    align-items: center;
+    color: var(--main-black);
+    background-color: var(--main-yellow);
+    border-radius: 39px;
+    max-width: 160px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 150px;
+}

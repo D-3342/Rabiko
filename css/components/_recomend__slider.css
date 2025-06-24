@@ -1,0 +1,99 @@
+.recomend__title {
+    font-size: 32px;
+    margin: 27px 74px 22px;
+}
+
+.recomend__slider {
+    max-width: 1491px;
+    background-color: var(--second-grey);
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 0 auto 153px;
+    padding-top: 32px;
+}
+
+.slider__card {
+    background-color: var(--background-grey);
+    border-radius: 20px;
+    padding-bottom: 26px;
+    margin-bottom: 34px;
+}
+
+.slider__name {
+    margin: 15px 38px 25px;
+}
+
+.slider__button {
+    font-size: 20px;
+    font-family: 'DaysOne-Regular';
+    align-items: center;
+    color: var(--main-black);
+    background-color: var(--main-yellow);
+    border-radius: 39px;
+    max-width: 160px;
+    margin: 15px 18px;
+    margin-bottom:  25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recomendation__slider {
+    margin: 22px 74px;
+    padding-bottom: 21px;
+}
+
+.recomend__slider .swiper-pagination-bullet {
+    background-color: var(--main-yellow);
+    width: 144px;
+    height: 5px;
+    border-radius: 0px;
+    margin-top: -10px;
+}
+
+.recomend__slider--yellow .swiper-pagination-bullet {
+    background-color: var(--button-orange-2);
+}
+
+.slider__link--orange {
+    display: flex;
+    width: 53px;
+    height: 53px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 77px;
+    background-color: var(--button-orange-2);
+    transform: scale(-1);
+    z-index: 100;
+    position: relative;
+    margin: 0 130px;
+}
+
+.slider__link__yellow {
+    display: flex;
+    width: 53px;
+    height: 53px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 77px;
+    background-color: var(--main-yellow);
+    transform: scale(-1);
+    z-index: 100;
+    position: relative;
+    margin: 0 130px;
+}
+
+.slider__button--next {
+    transform: scale(1);
+}
+
+.recomend__slider--yellow {
+    background-color: var(--second-yellow);
+}
+
+.slider__card--yellow {
+    background-color: var(--button-orange-2);
+}
+
+.swiper-pagination-bullet .swiper-pagination--orange {
+    background-color: var(--third-orange);
+}
